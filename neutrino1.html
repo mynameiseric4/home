@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Neutrino</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+</head>
+<body>
+
+<!-- T1 -->
+<div style="position:absolute; top:100px; right:350px">
+<svg height="520" width="260">
+<polygon points="0,20 260,0 260,500 0,480" style="fill:url(#Gradient1)">
+</svg>
+</div>
+
+<!-- T2 -->
+<div style="position:absolute; top:100px; right:270px">
+<svg height="520" width="80">
+<polygon points="0,0 20,20 20,480 0,500" style="fill:url(#Gradient2)">
+</svg>
+</div>
+
+<!-- R1 -->
+<div style="position:absolute; top:320px; left:100px">
+<svg height="250" width="200">
+<polygon points="0,50 200,10 200,110 0,150" style="fill:red; stroke: red; stroke-width:1; opacity:.1">
+</svg>
+</div>
+
+<!-- R2 -->
+<div style="position:absolute; top:320px; left:100px">
+<svg height="250" width="200">
+<polygon points="0,50 150,100 150,200 0,150" style="fill:red; stroke: red; stroke-width:1; opacity:.3">
+</svg>
+</div>
+
+<!-- R3 -->
+<div style="position:absolute; top:320px; left:100px">
+<svg height="250" width="200">
+<polygon points="150,100 200,10 200,110 150,200" style="fill:red; stroke: red; stroke-width:1; opacity:.3">
+</svg>
+</div>
+
+<!-- Neutrino -->
+<div style="position:fixed; left:19%; top:15%; font-family:'Open Sans'; font-size: 50px">
+	<a href="http://localhost:8888/Hilix/Home/hilix.html" style="text-decoration:none; color:#E0E7EB; letter-spacing:-2px">Neutrino</a>
+ </div>
+
+ <svg width="120" height="240">
+  <defs>
+      <linearGradient id="Gradient1">
+        <stop class="stop1" offset="0%"/>
+        <stop class="stop2" offset="100%"/>
+      </linearGradient>
+      <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="grey"/>
+        <stop offset="50%" stop-color="lightgrey" stop-opacity="0"/>
+        <stop offset="100%" stop-color="gey"/>
+      </linearGradient>
+      <style type="text/css"><![CDATA[
+        #rect1 { fill: url(#Gradient1); }
+        .stop1 { stop-color: lightgrey; stop-opacity: .8; }
+        .stop2 { stop-color: grey;}
+        .stop3 { stop-color: blue; }
+      ]]></style>
+  </defs>
+</svg>
+
+
+<body>
+</html>

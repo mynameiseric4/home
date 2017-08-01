@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Neutrino</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+	<style type="text/css">
+		a.PT{text-decoration:none; color:#E0E7EB; letter-spacing:-2px}
+		a.PT:hover{color: grey; transition: color .2s;}
+	</style>
+</head>
+<body>
+
+<!-- Floor -->
+<div style="position:absolute; top:500px; left:0px">
+<svg height="250" width="1275">
+<polygon points="0,10 1275,00 1275,250 0,250" style="fill:url(#Gradient3)">
+</svg>
+</div>
+
+<!-- C1 -->
+<div style="position:absolute; top:80px; right:280px">
+<svg height="550" width="260">
+<polygon points="15,20 260,0 260,550 15,520" style="fill:url(#Gradient1)">
+</svg>
+</div>
+
+<!-- C2 -->
+<div style="position:absolute; top:80px; right:200px">
+<svg height="550" width="80">
+<polygon points="0,0 15,15 15,545 0,550" style="fill:url(#Gradient2)">
+</svg>
+</div>
+
+<!-- C3 -->
+<div style="position:absolute; top:160px; right:212px">
+<svg height="200" width="250">
+<polygon points="0,7 120,00 120,75 0,76" style="fill:url(#Gradient1)">
+</svg>
+</div>
+
+<!-- Label -->
+<div style="position:absolute; right:30%; top:36%; font-family:'Open Sans'; font-size: 26px; transform: rotateY(5deg) rotateZ(-90deg);">
+	<span style="color:#E0E7EB; letter-spacing:-2px; cursor:default">Neutrino</span> 
+	<br> 
+	<span style="color:#E0E7EB; letter-spacing:-2px; cursor:default; font-size:25px">&#9679; &#9679; &#9679;</span>
+ </div>
+
+ <!-- C3 -->
+<div style="position:absolute; bottom:80px; right:212px">
+<svg height="200" width="250">
+<polygon points="0,0 120,5 120,80 0,70" style="fill:url(#Gradient1)">
+</svg>
+</div>
+
+<!-- Neutrino -->
+<div style="position:absolute; left:28%; top:20%; font-family:'Open Sans'; font-size: 50px; transform: rotateY(5deg);">
+	<a class="PT" href="http://localhost:8888/Hilix/Home/hilix.html">hilix</a>
+ </div>
+ <div style="position:absolute; left:18.5%; top:37%; font-family:'Open Sans'; font-size: 18px; color:#aaa">
+  Neutrino <br> <span style="font-size: 13px"> Mdroid type: aerospace stemdroid. <br> Trained in: aerodynamics, avionics, <br> propulsion systems, piloting, <br> 
+machine engineeing.</span>
+ </div>
+
+ <svg width="120" height="240">
+  <defs>
+      <linearGradient id="Gradient1">
+        <stop class="stop1" offset="0%"/>
+        <stop class="stop2" offset="100%"/>
+      </linearGradient>
+      <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="#aaa"/>
+        <stop offset="50%" stop-color="#f2f2f2" stop-opacity="1"/>
+        <stop offset="100%" stop-color="#aaa"/>
+      </linearGradient>
+      <linearGradient id="Gradient3">
+        <stop offset="0%" stop-color="#f2f2f2"/>
+        <stop offset="100%" stop-color="#f8f8f8" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="Gradient4">
+        <stop class="xw" offset="0%"/>
+        <stop class="xe" offset="100%"/>
+      </linearGradient>
+      <style type="text/css"><![CDATA[
+        #rect1 { fill: url(#Gradient1); }
+        .stop1 { stop-color: lightgrey; stop-opacity: 1; }
+        .stop2 { stop-color: grey;}
+      ]]></style>
+      <style type="text/css"><![CDATA[
+        #rectn { fill: url(#Gradient4); }
+        .xw { stop-color: #f2f2f2; stop-opacity: .5; }
+        .xe { stop-color: #f8f8f8;}
+      ]]></style>
+  </defs>
+</svg>
+
+
+<body>
+</html>
