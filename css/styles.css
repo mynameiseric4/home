@@ -135,7 +135,7 @@ hr.style-two {
   font-family: 'Avenir', 'light';
   margin-top:-5px;
   margin-left: 0px;
-  position:fixed; 
+  position:fixed;
   right:20px; top:25px;
 
 }
@@ -209,7 +209,7 @@ input[type=text] {
     padding: 12px 20px 12px 40px;
     margin-left: 20px;
     margin-top: 60px;
-    
+
 }
 
 input[type=password] {
@@ -223,7 +223,7 @@ input[type=password] {
     position: absolute;
     left: 55px;
     margin-top: 5px;
-    
+
 }
 
 input[type=button] {
