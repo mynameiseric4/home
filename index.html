@@ -87,31 +87,31 @@
       <!-- Modal content -->
       <div class="modal-content">
         <span class="close" style="font-weight:normal">x</span>
-              <p>
-                <div class="container">
-                  <div class="main">
-                    <form id="form_id" method="post" name="myform">
-                      <!-- Username -->
-                      <input  type="text" name="username" id="username" placeholder="Email address">
-                        <!-- Password reset -->
-                        <div style="font-size:12px; margin-top: 20px; padding-right:110px">Password Reset ?</div>
-                      <!--  Password -->
-                      <input type="password" name="password" id="password" placeholder="Password">
-                        <div  align="left" style="margin:0 0 0 65px;">
-                          <!-- Remember me -->
-                          <label  class="checkbox" style="font-size:12px; font-weight:normal; width:20%">
-                            <input type="checkbox" value="remember-me" id="remember_me"> Remember me on this computer
-                          </label>
-                        </div>
-                      <!-- Login -->
-                      <div style="margin-top:-50px">
-                        <input type="button" value="Login" id="submit" onclick="validate()"/>
-                      </div>
-                    </form>
+        <p>
+          <div class="container">
+            <div class="main">
+              <form id="form_id" method="post" name="myform">
+                <!-- Username -->
+                <input  type="text" name="username" id="username" placeholder="Email address">
+                  <!-- Password reset -->
+                  <div style="font-size:12px; margin-top: 20px; padding-right:110px">Password Reset ?</div>
+                <!--  Password -->
+                <input type="password" name="password" id="password" placeholder="Password">
+                  <div  align="left" style="margin:0 0 0 65px;">
+                    <!-- Remember me -->
+                    <label  class="checkbox" style="font-size:12px; font-weight:normal; width:20%">
+                      <input type="checkbox" value="remember-me" id="remember_me"> Remember me on this computer
+                    </label>
                   </div>
+                <!-- Login -->
+                <div style="margin-top:-50px">
+                  <input type="button" value="Login" id="submit" onclick="validate()"/>
                 </div>
-              </p>
-        </div>
+              </form>
+            </div>
+          </div>
+        </p>
+      </div>
     </div>
 
     <!-- ______________________________ JS ____________________________ -->
@@ -183,7 +183,7 @@
       function validate(){
         var username = document.getElementById("username").value;
         var password = document.getElementById("password").value;
-        if ( username == "abc" && password == "123"){
+        if ( username == " " && password == " "){
           window.location = "http://localhost:8888/Hilix/Dashboard/dashboard.html"; // Redirecting to localhost page.
         return false;
         }
